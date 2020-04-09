@@ -11,8 +11,8 @@
 * [Data Exploration](#data-exploration)
   * [Pipeline](#pipeline-source)
   * [Analysis](#analysis)
-    * [Adpated movies](#movies)
-    * [Genres](#genres)
+    * [Adpated movies count](#movies)
+    * [By Genres](#genres)
 * [Hypothesis Testing](#hypothesis-testing)
   * [Distribution](#distribution)
   * [t-test](#t-test)
@@ -46,11 +46,11 @@ After cleaning and filtering my dataset contained movies and tv movies released 
 
 Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name from adpated movie list to do GET by title API(goodreads) call and got back 1,870 books. 
 
-#### Adapted movies
+#### Adapted movies count
 
 ![](images/total_number_of_movies.png)
 
-#### Genres
+#### By Genres
 
 ![](images/Movie_Count_Genre.png)
 
@@ -65,11 +65,16 @@ First lets see the distribution of original data.
 
 ### t-test
 > - SampleA: Books avg ratings
->> - SampleA mean:              
->> - SampleA standard deviation:
+>> - SampleA mean: 3.7             
+>> - SampleA standard deviation: 0.6
 > - SampleB: Movies avg ratings
->> - SampleB mean:              
->> - SampleB standard deviation:
+>> - SampleB mean: 3.2              
+>> - SampleB standard deviation: 0.2
+> - Standard error: 0.066
+> - α : 0.05
+> - p-value : 0.00013
+
+![](images/Avg_ratings.png)
 
 ## Conclusion
 
