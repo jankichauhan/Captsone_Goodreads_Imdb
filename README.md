@@ -2,7 +2,8 @@
 **How do Movies perform compared to Books they were adapted from?**
 <br>Janki Chauhan
 <br>
-[Linkedin](https://www.linkedin.com/in/jankichauhan/) | [Github](https://github.com/jankichauhan)
+[Linkedin](https://www.linkedin.com/in/jankichauhan/) | [Github](https://github.com/jankichauhan) | [Goodreads](https://www.goodreads.com/jankichauhan)
+
 
 ## Table of Contents
 
