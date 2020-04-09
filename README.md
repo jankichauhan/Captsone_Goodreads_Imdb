@@ -20,7 +20,7 @@
 * [Future Analysis](#future-analysis)
 
 ## Motivation
-It was my husband who got me in reading; it started with Harry Potter books and now I read 20 books a year. (That's my goodreads reading challange too) After I finish a book, I usally discuss it with my husbands and other friends who have already read the same. It was during one of such conversation when I asked do movies receive similar or better ratings than the books they are adapted from. That conversation also brought another two intresting questions: are the books sales go high after the adapted movie was released? Do number of book reviews/ratings increase i.e. more people read the book after the adapted movie was released.
+It was my husband who got me into reading; it started with Harry Potter books and now I read 20 books a year. (That's my goodreads reading challange too) After I finish a book, I usally discuss it with my husbands and other friends who have already read the same. It was during one of such conversation when it occurred to me, do movies receive similar or better ratings than the books they are adapted from. It will be a good data analysis project! That conversation also brought another two intresting questions: are the books sales go high after the adapted movie was released? Do number of book reviews/ratings increase i.e. more people read the book after the adapted movie was released.
 
 ### Question
 During this project I wil be exploring data related to movies that were adapted from books. I am looking to get some data to answer my question : 'Do movies that are adapted from books receive similar or better ratings'
