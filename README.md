@@ -2,7 +2,7 @@
 **How do Movies perform compared to Books they were adapted from?**
 <br>Janki Chauhan
 <br>
-[Linkedin](https://www.linkedin.com/in/jankichauhan/)| [Github](https://github.com/jankichauhan) | 
+[Linkedin](https://www.linkedin.com/in/jankichauhan/) | [Github](https://github.com/jankichauhan) | 
 
 ## Table of Contents
 
@@ -31,6 +31,7 @@
 ### Pipeline (Source)
 
 [Goodreads API](https://www.goodreads.com/api)
+
 [Imdb dataset](https://www.imdb.com/interfaces/)
 
 ### Analysis
