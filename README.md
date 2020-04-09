@@ -37,11 +37,19 @@ I am using Imdb dataset(as .tsv files) and Goodreads api to get information on i
 
 ### Analysis
 Imdb dataset contains four main tables:
-    * Imdb all: All infomation related movies, tv shows and shorts Imdb tracks 
-    * Ratings: Average ratings(out of 10) and number of votes
-    * Crew infomation: Basic information of people related to movies e.g wirter, director, actors ... etc
-    * Principal crew: Mapping of movie id to crew ids. It is one to manny relation. 
-After cleaning and filtering my dataset contained movies and tv movies released between 2005 to 2020 with more than 100 votes joined with the writer(s) associated with the resepective movie. I get information about the book from writer's job description. 
+
+    * Imdb all: All infomation related movies, tv shows and shorts Imdb tracks. (# of rows: 6,737,752)
+    
+    * Ratings: Average ratings(out of 10) and number of votes. (# of rows: 1,022,316)
+    
+    * Crew infomation: Basic information of people related to movies e.g wirter, director, ... etc. (# of rows: 9,999,865)
+    
+    * Principal crew: Mapping of movie id to crew ids. It is one to manny relation. (# of rows: 38,643,725)
+    
+After cleaning and filtering my dataset contained movies and tv movies released between 2005 to 2019 with more than 100 votes joined with the writer(s) associated with the resepective movie. I get information about the book from writer's job description. (# of rows: 52,779)
+
+Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name from adpated movie list to do GET by title API(goodreads) call and got back 1,870 books. 
+
 #### Adapted movies
 
 ![](images/total_number_of_movies.png)
