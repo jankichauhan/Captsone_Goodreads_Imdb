@@ -37,14 +37,10 @@ I am using Imdb dataset(as .tsv files) and Goodreads api to get information on i
 
 ### Analysis
 Imdb dataset contains four main tables:
-
-    * Imdb all: All infomation related movies, tv shows and shorts Imdb tracks. (# of rows: 6,737,752)
-    
-    * Ratings: Average ratings(out of 10) and number of votes. (# of rows: 1,022,316)
-    
-    * Crew infomation: Basic information of people related to movies e.g wirter, director, ... etc. (# of rows: 9,999,865)
-    
-    * Principal crew: Mapping of movie id to crew ids. It is one to manny relation. (# of rows: 38,643,725)
+> - Imdb all: All infomation related movies, tv shows and shorts Imdb tracks. (# of rows: 6,737,752)
+> - Ratings: Average ratings(out of 10) and number of votes. (# of rows: 1,022,316)
+> - Crew infomation: Basic information of people related to movies e.g wirter, director, ... etc. (# of rows: 9,999,865)
+> - Principal crew: Mapping of movie id to crew ids. It is one to manny relation. (# of rows: 38,643,725)
     
 After cleaning and filtering my dataset contained movies and tv movies released between 2005 to 2019 with more than 100 votes joined with the writer(s) associated with the resepective movie. I get information about the book from writer's job description. (# of rows: 52,779)
 
@@ -61,18 +57,19 @@ Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name
 ## Hypothesis Testing
 ***"Do movies that are adapted from books receive similar or better ratings"***
 
-* Null Hypothesis: Books have same or else ratings compare to movie adaption
-* Alternate Hypothesis: Books received better ratings compare to movie adaption.
+> - Null Hypothesis: Books have same or else ratings compare to movie adaption
+> - Alternate Hypothesis: Books received better ratings compare to movie adaption.
 
 ### Distribution
 First lets see the distribution of original data. 
 
 ### t-test
-SampleA: Books avg ratings, SampleB: Movies avg ratings
-
-SampleA mean:              SampleA standard deviation:
-
-SampleB mean:              SampleB standard deviation:
+> - SampleA: Books avg ratings
+>> - SampleA mean:              
+>> - SampleA standard deviation:
+> - SampleB: Movies avg ratings
+>> - SampleB mean:              
+>> - SampleB standard deviation:
 
 ## Conclusion
 
