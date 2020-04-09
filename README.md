@@ -78,11 +78,12 @@ Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name
 >  as the p-value is less the α we can successfully reject the null hyothesis. Hence books receive better ratings compare to respective movie adaptation. 
 
 ## Fun Fact
-> Authors with most box adapted to movie(top 2 movies)
-[](images/top_authors.png)
+> - Authors with most box adapted to movie(top 2 movies)
 
-> Goodreads has 90 million members registered users, while imdb has 83 million registered user; though Imdb has been around longer(since 1990).
-> Both Goodreads and Imdb are Amazon subsidaries. 
+![](images/top_authors.png)
+
+> - Goodreads has 90 million members registered users, while imdb has 83 million registered user; though Imdb has been around longer(since 1990).
+> - Both Goodreads and Imdb are Amazon subsidaries. 
 
 ## Future Analysis
 As I mentioned in motivation, it will great to see if the effect of movies(once they release) on the sales and number of reader of books. 
