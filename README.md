@@ -90,4 +90,4 @@ As I mentioned in motivation, it will great to see if the effect of movies(once 
 
 Imdb don't have revenue information for each movie. Given more time, it would be intresting to compare the revenue of movies that were adpated from books vs movie with original screenplay.
 
-Looking at the graphs, why there is dip in number of movies in 2018 and 2019? Is it because of #MeToo movement?
+Looking at the graphs, why there is dip in number of movies in 2018 and 2019? Was it because of #MeToo movement?
