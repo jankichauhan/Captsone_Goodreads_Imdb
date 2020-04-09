@@ -51,7 +51,8 @@ After cleaning and filtering my dataset contained movies and tv movies released 
 ![](images/Movie_Count_Genre.png)
 
 ## Hypothesis Testing
-Do movies that are adapted from books receive similar or better ratings
+***"Do movies that are adapted from books receive similar or better ratings"***
+
 * Null Hypothesis: Books have same or else ratings compare to movie adaption
 * Alternate Hypothesis: Books received better ratings compare to movie adaption.
 
