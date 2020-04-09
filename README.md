@@ -1,4 +1,4 @@
-# EDA on movies and books they were adapted from.
+# EDA on books adapted movies.
 **How do Movies perform compared to Books they were adapted from?**
 <br>Janki Chauhan
 <br>
