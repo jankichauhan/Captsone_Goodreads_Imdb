@@ -78,7 +78,7 @@ Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name
 >  as the p-value is less the α we can successfully reject the null hyothesis. Hence books receive better ratings compare to respective movie adaptation. 
 
 ## Fun Fact
-> - Authors with most box adapted to movie(top 2 movies)
+> - Authors with most movies adapted from their books(top 2 movies)
 
 ![](images/top_authors.png)
 
