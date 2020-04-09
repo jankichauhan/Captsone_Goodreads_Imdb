@@ -27,7 +27,7 @@ During this project I wil be exploring data related to movies that were adapted 
 
 ## Data Exploration
 I am using Imdb dataset(as .tsv files) and Goodreads api to get information on individual books.
-### Pipeline (Source)
+### Pipeline
 
 ![](images/pipeline.png)
 
