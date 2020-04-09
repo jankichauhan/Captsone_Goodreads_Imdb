@@ -5,7 +5,7 @@
 [Linkedin](https://www.linkedin.com/in/jankichauhan/) | [Github](https://github.com/jankichauhan) | [Goodreads](https://www.goodreads.com/jankichauhan)
 
 
-## Table of Contents
+## Contents
 
 * [Motivation](#motivation)
   * [Question](#question)
