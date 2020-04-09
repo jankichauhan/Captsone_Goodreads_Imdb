@@ -29,7 +29,10 @@ During this project I wil be exploring data related to movies that were adapted 
 I am using Imdb dataset(as .tsv files) and Goodreads api to get information on individual books.
 ### Pipeline (Source)
 
+![](images/pipeline.png)
+
 [Goodreads API](https://www.goodreads.com/api)
+
 [Imdb dataset](https://www.imdb.com/interfaces/)
 
 ### Analysis
@@ -41,12 +44,26 @@ Imdb dataset contains four main tables:
 After cleaning and filtering my dataset contained movies and tv movies released between 2005 to 2020 with more than 100 votes joined with the writer(s) associated with the resepective movie. I get information about the book from writer's job description. 
 #### Adapted movies
 
+![](images/total_number_of_movies.png)
+
 #### Genres
 
+![](images/Movie_Count_Genre.png)
+
 ## Hypothesis Testing
+Do movies that are adapted from books receive similar or better ratings
+* Null Hypothesis: Books have same or else ratings compare to movie adaption
+* Alternate Hypothesis: Books received better ratings compare to movie adaption.
+
 ### Distribution
+First lets see the distribution of original data. 
 
 ### t-test
+SampleA: Books avg ratings, SampleB: Movies avg ratings
+
+SampleA mean:              SampleA standard deviation:
+
+SampleB mean:              SampleB standard deviation:
 
 ## Conclusion
 
