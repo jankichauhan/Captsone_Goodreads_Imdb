@@ -2,12 +2,11 @@
 **How do Movies perform compared to Books they were adapted from?**
 <br>Janki Chauhan
 <br>
-[Linkedin](https://www.linkedin.com/in/jankichauhan/) | [Github](https://github.com/jankichauhan) | 
+[Linkedin](https://www.linkedin.com/in/jankichauhan/) | [Github](https://github.com/jankichauhan)
 
 ## Table of Contents
 
 * [Motivation](#motivation)
-  * [Personal](#personal)
   * [Question](#question)
 * [Data Exploration](#data-exploration)
   * [Pipeline](#pipeline-source)
@@ -21,22 +20,26 @@
 * [Future Analysis](#future-analysis)
 
 ## Motivation
-
-### Personal
+It was my husband who got me in reading; it started with Harry Potter books and now I read 20 books a year. (That's my goodreads reading challange too) After I finish a book, I usally discuss it with my husbands and other friends who have already read the same. It was during one of such conversation when I asked do movies receive similar or better ratings than the books they are adapted from. That conversation also brought another two intresting questions: are the books sales go high after the adapted movie was released? Do number of book reviews/ratings increase i.e. more people read the book after the adapted movie was released.
 
 ### Question
+During this project I wil be exploring data related to movies that were adapted from books. I am looking to get some data to answer my question : 'Do movies that are adapted from books receive similar or better ratings'
 
 ## Data Exploration
-
+I am using Imdb dataset(as .tsv files) and Goodreads api to get information on individual books.
 ### Pipeline (Source)
 
 [Goodreads API](https://www.goodreads.com/api)
-
 [Imdb dataset](https://www.imdb.com/interfaces/)
 
 ### Analysis
-
-#### Adpated movies
+Imdb dataset contains four main tables:
+    * Imdb all: All infomation related movies, tv shows and shorts Imdb tracks 
+    * Ratings: Average ratings(out of 10) and number of votes
+    * Crew infomation: Basic information of people related to movies e.g wirter, director, actors ... etc
+    * Principal crew: Mapping of movie id to crew ids. It is one to manny relation. 
+After cleaning and filtering my dataset contained movies and tv movies released between 2005 to 2020 with more than 100 votes joined with the writer(s) associated with the resepective movie. I get information about the book from writer's job description. 
+#### Adapted movies
 
 #### Genres
 
