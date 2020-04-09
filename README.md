@@ -58,11 +58,8 @@ Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name
 ## Hypothesis Testing
 ***"Do movies that are adapted from books receive similar or better ratings"***
 
-> - Null Hypothesis: Books have same or else ratings compare to movie adaption
-> - Alternate Hypothesis: Books received better ratings compare to movie adaption.
-
-### Distribution
-First lets see the distribution of original data. 
+> - Null Hypothesis: Books have same or less ratings compare to movie adaption
+> - Alternate Hypothesis: Books receive better ratings compare to movie adaption.
 
 ### t-test
 > - SampleA: Books avg ratings
@@ -78,5 +75,18 @@ First lets see the distribution of original data.
 ![](images/Avg_ratings.png)
 
 ## Conclusion
+>  as the p-value is less the α we can successfully reject the null hyothesis. Hence books receive better ratings compare to respective movie adaptation. 
+
+## Fun Fact
+> Authors with most box adapted to movie(top 2 movies)
+[](images/top_authors.png)
+
+> Goodreads has 90 million members registered users, while imdb has 83 million registered user; though Imdb has been around longer(since 1990).
+> Both Goodreads and Imdb are Amazon subsidaries. 
 
 ## Future Analysis
+As I mentioned in motivation, it will great to see if the effect of movies(once they release) on the sales and number of reader of books. 
+
+Imdb don't have revenue information for each movie. Given more time, it would be intresting to compare the revenue of movies that were adpated from books vs movie with original screenplay.
+
+Looking at the graphs, why there is dip in number of movies in 2018 and 2019? Is it because of #MeToo movement?
