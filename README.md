@@ -61,7 +61,7 @@ Filtering for adapted movies narrowed my data to 2,443 rows. I used the book nam
 > - Null hypothesis: Books have same or less ratings compared to movie adaptation
 > - Alternate hypothesis: Books receive better ratings compared to movie adaptation.
 
-### z-test
+### t-test
 > - SampleA: Books avg ratings
 >> - SampleA mean: 3.7             
 >> - SampleA standard deviation: 0.6
@@ -79,7 +79,7 @@ Filtering for adapted movies narrowed my data to 2,443 rows. I used the book nam
 > - Null hypothesis: Adapted movies receive better ratings then original screenplay. 
 > - Alternate hypothesis: Movie ratings are independent of whether it was adapted or original.
 
-### z-test
+### t-test
 > - SampleA: Overall movies avg ratings
 >> - SampleA mean: 3.36            
 >> - SampleA standard deviation: 0.63
