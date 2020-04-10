@@ -101,7 +101,7 @@ Filtering for adapted movies narrowed my data to 2,443 rows. I used the book nam
 ![](images/top_authors.png)
 
 > - Goodreads has 90 million members registered users, while imdb has 83 million registered user; though Imdb has been around longer(since 1990).
-> - Both Goodreads and Imdb are Amazon subsidaries. 
+> - Both Goodreads and Imdb are Amazon subsidiaries. 
 
 ## Future Analysis
 It will great to see if the effect of movies(once they release) on the sales and number of reader of books.
