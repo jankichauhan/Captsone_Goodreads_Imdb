@@ -74,8 +74,26 @@ Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name
 
 ![](images/Avg_ratings.png)
 
+***"Do movies ratings depends on if it was adapted from a book or had original screenplay"***
+
+> - Null Hypothesis: Adapted movies receive better ratings then original screenplay. 
+> - Alternate Hypothesis: Movie ratings are independent of whether it was adapted or original.
+
+### t-test
+> - SampleA: Overall movies avg ratings
+>> - SampleA mean: 3.36            
+>> - SampleA standard deviation: 0.63
+> - SampleB: Movies avg ratings
+>> - SampleB mean: 3.2              
+>> - SampleB standard deviation: 0.2
+> - Standard error: 0.014
+> - α : 0.05
+> - p-value < 0.0001
+
 ## Conclusion
->  as the p-value is less the α we can successfully reject the null hyothesis. Hence books receive better ratings compare to respective movie adaptation. 
+>  for first: as the p-value is less the α we can successfully reject the null hyothesis. Hence books receive better ratings compare to respective movie adaptation.
+
+>  for second: as the p-value is less the α we can successfully reject the null hyothesis. Hence movie ratings are independent of whether it was adapted or original. 
 
 ## Fun Fact
 > - Authors with most movies adapted from their books(top 2 movies)
@@ -86,8 +104,8 @@ Filtering for adapted movies narrowed my data to 2,443 rows. Uses the books name
 > - Both Goodreads and Imdb are Amazon subsidaries. 
 
 ## Future Analysis
-As I mentioned in motivation, it will great to see if the effect of movies(once they release) on the sales and number of reader of books. 
+It will great to see if the effect of movies(once they release) on the sales and number of reader of books.
 
-Imdb don't have revenue information for each movie. Given more time, it would be intresting to compare the revenue of movies that were adpated from books vs movie with original screenplay.
+Imdb don't have revenue information for each movie. Given more time, it would be interesting to compare the revenue of movies that were adapted from books vs movie with original screenplay.
 
 Looking at the graphs, why there is dip in number of movies in 2018 and 2019? Was it because of #MeToo movement?
