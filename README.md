@@ -74,7 +74,7 @@ Filtering for adapted movies narrowed my data to 2,443 rows. I used the book nam
 
 ![](images/Avg_ratings.png)
 
-***"Do movies ratings depends on if it was adapted from a book or had original screenplay"***
+***"Movie ratings are independent of what they are based on"***
 
 > - Null hypothesis: Adapted movies receive better ratings then original screenplay. 
 > - Alternate hypothesis: Movie ratings are independent of whether it was adapted or original.
